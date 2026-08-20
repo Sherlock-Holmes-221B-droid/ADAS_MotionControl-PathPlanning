@@ -8,7 +8,7 @@ A modular, high-fidelity Python framework for simulating and benchmarking classi
 * **Visualization** :  Vehicle plotter and animation files.
 * **Vehicle**       :  Vehicle configuration and state.
 ---
-![Alternative text](Images/vehicle_controllers_comparison1.gif)
+![Alternative text](Images/vehicle_controllers_comparison.gif)
 
 ##  Repository Architecture
 
