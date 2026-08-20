@@ -6,7 +6,7 @@ A modular, high-fidelity Python framework for simulating and benchmarking classi
 * **utils**         :  Contains different paths to test the algorithms.
 * **Controllers**   :  Pure pursuit with Dynamic Lookahead, Stanley, LQR and MPC using **cvxpy** library.
 * **Visualization** :  Vehicle plotter and animation files.
-* **4-Way Parallel Grid Simulation**: Compare **Pure Pursuit**, **Stanley**, **MPC**, and **LQR** simultaneously in a unified layout.
+* **Vehicle**       :  Vehicle configuration and state.
 ---
 ![Alternative text](Images/vehicle_controllers_comparison.gif)
 
