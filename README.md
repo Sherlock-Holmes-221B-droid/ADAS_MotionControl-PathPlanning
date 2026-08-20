@@ -3,12 +3,12 @@
 A modular, high-fidelity Python framework for simulating and benchmarking classic autonomous vehicle lateral and longitudinal motion controllers side by side in real-time.
 
 ##  Features
+* **utils**         :  Contains different paths to test the algorithms.
+* **Controllers**   :  Pure pursuit with Dynamic Lookahead, Stanley, LQR and MPC using **cvxpy** library.
+* **Visualization** :  Vehicle plotter and animation files.
 * **4-Way Parallel Grid Simulation**: Compare **Pure Pursuit**, **Stanley**, **MPC**, and **LQR** simultaneously in a unified layout.
-* **Modular Pipeline**: Decoupled physics, path generation, tracking logic, and animation rendering layers.
-* **Dual Run Execution**: Execute scripts individually for localized deep dives or run the master suite for a unified evaluation view.
-* **Auto-Exporter**: Compiles your benchmarking loops directly into high-fidelity `.gif` animations.
-
 ---
+![Alternative text](Images/vehicle_controllers_comparison.gif)
 
 ##  Repository Architecture
 
