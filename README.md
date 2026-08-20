@@ -22,6 +22,7 @@ A modular, high-fidelity Python framework for simulating and benchmarking classi
 ├── Vehicle/
 │   ├── Vehicle_config.py           # Wheelbase, limits, and vehicle specs
 │   ├── vehicle_state.py            # Kinematic state models (x, y, yaw, v)
+|   ├── controlInput.py             # acceleration and steering control
 │   └── vehicle.py                  # Plant vehicle model and step physics
 ├── utils/
 │   ├── path_generation.py          # Path boundary calculations
